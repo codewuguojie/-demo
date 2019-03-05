@@ -1,0 +1,56 @@
+#LB-box{
+    width: 900px;
+    height: 300px;
+    margin: 50px auto;
+    overflow: hidden;
+    position: relative;
+}
+.LB-pic{
+    width: 4500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.LB-pic>li{
+    width: 900px;
+}
+.LB-index{
+    position: absolute;
+    bottom: 5px;
+    left: 350px;
+}
+.LB-index>span{
+    border: 5px solid #fff;
+    width: 10px;
+    height: 10px;
+    margin: 0 10px;
+    border-radius: 50%;
+    background: white;
+}
+.LB-index .now{
+     border: 5px solid #ff0000;
+ }
+#LB-box>p{
+    width: 40px;
+    height: 60px;
+    position: absolute;
+    line-height: 60px;
+    text-align: center;
+    top: 120px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 30px;
+    background: #333;
+    display: none;
+}
+#LB-box:hover p{
+    display: block;
+}
+.prv{
+    left: 10px;
+}
+.next{
+    right: 10px;
+}
+
+
